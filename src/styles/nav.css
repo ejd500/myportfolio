@@ -1,0 +1,183 @@
+/* Desktop Media Query */
+@media only screen and (min-width: 1087px) {
+    /* Styles for devices with a min-width of 1087 pixels */
+    #header{
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 60px;
+        height: 100px;
+        align-items: center;
+    }
+    
+
+    #logo{
+        font-family: 'Playfair Display', serif;
+        font-size: 36pt;
+        color: #25282B;
+    }
+
+    #logo a:link{
+        color: #25282B;
+        text-decoration: none;
+    }
+    #logo a:visited{
+        text-decoration: none;
+        color: #25282B;
+    }
+    #logo a:hover{
+        transform: translateY(-4px);
+    }
+    #nav{
+        display: flex;
+        justify-content: space-between;
+        width: 384px;
+        font-family: 'Nunito', sans-serif;
+        font-size: 18pt;
+        font-weight: 500;
+    }
+    .nav-link{
+        text-decoration: none;
+        color: #25282B;
+    }
+    .nav-link:hover{
+        border-bottom: 2px solid black;
+        transform: translateY(-4px);
+    }
+}
+
+/* Tablet Media Query */
+@media only screen and (min-width: 731px) and (max-width: 1086px) {
+     /* Styles for devices with a min-width of 731 and a max-width of 1086 pixels */
+     #header{
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 60px;
+        height: 100px;
+        align-items: center;
+    }
+    
+    #logo{
+        font-family: 'Playfair Display', serif;
+        font-size: 36pt;
+        color: #25282B;
+    }
+
+    #logo a:link{
+        color: #25282B;
+        text-decoration: none;
+    }
+    #logo a:visited{
+        text-decoration: none;
+        color: #25282B;
+    }
+    #logo a:hover{
+        transform: translateY(-4px);
+    }
+    #nav{
+        display: flex;
+        justify-content: space-between;
+        width: 384px;
+        font-family: 'Nunito', sans-serif;
+        font-size: 18pt;
+        font-weight: 500;
+    }
+    .nav-link{
+        text-decoration: none;
+        color: #25282B;
+    }
+    .nav-link:hover{
+        border-bottom: 2px solid black;
+        transform: translateY(-4px);
+    }
+}
+/* Tablet Media Query */
+@media only screen and (min-width: 431px) and (max-width: 730px) {
+    /* Styles for devices with a min-width of 431 and a max-width of 730 pixels */
+    #header{
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 40px;
+        height: 100px;
+        align-items: center;
+    }
+    #logo{
+        font-family: 'Playfair Display', serif;
+        font-size: 24px;
+        color: #25282B;
+        margin-right: 40px;
+    }
+
+    #logo a:link{
+        color: #25282B;
+        text-decoration: none;
+    }
+    #logo a:visited{
+        text-decoration: none;
+        color: #25282B;
+    }
+    #logo a:hover{
+        transform: translateY(-4px);
+    }
+    #nav{
+        display: flex;
+        justify-content: space-between;
+        width: 384px;
+        font-family: 'Nunito', sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .nav-link{
+        text-decoration: none;
+        color: #25282B;
+    }
+    .nav-link:hover{
+        border-bottom: 2px solid black;
+        transform: translateY(-4px);
+    }
+}
+
+/* Mobile media query */
+@media only screen and (max-width: 430px) {
+    /* Styles for devices with a max-width of 430 pixels */
+    #header{
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 40px;
+        height: 100px;
+        align-items: center;
+    }
+    #logo{
+        font-family: 'Playfair Display', serif;
+        font-size: 24px;
+        color: #25282B;
+        margin-right: 40px;
+    }
+
+    #logo a:link{
+        color: #25282B;
+        text-decoration: none;
+    }
+    #logo a:visited{
+        text-decoration: none;
+        color: #25282B;
+    }
+    #logo a:hover{
+        transform: translateY(-4px);
+    }
+    #nav{
+        display: flex;
+        justify-content: space-between;
+        width: 384px;
+        font-family: 'Nunito', sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .nav-link{
+        text-decoration: none;
+        color: #25282B;
+    }
+    .nav-link:hover{
+        border-bottom: 2px solid black;
+        transform: translateY(-4px);
+    }
+}

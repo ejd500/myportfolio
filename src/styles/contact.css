@@ -1,0 +1,51 @@
+#contactpage{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 60px;
+    /* background-color: aqua; */
+}
+h1{
+    font-family: 'Playfair Display', serif;
+    /* text-align: center; */
+    font-size: 48px;
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+form{
+    width: 45%;
+    background-color: white;
+    height: 500px;
+    border-radius: 5px;
+    margin-top: 60px;
+    box-shadow: 0 0px 8px lightgrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+#inputs{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.label{
+    margin-top: 24px;
+    margin-bottom: 8px;
+    font-family: 'Nunito', sans-serif;
+}
+.text{
+    height: 30px;
+    border: 1px solid lightgray;
+    font-family: 'Nunito', sans-serif;
+}
+#message{
+    height: 150px;
+    border: 1px solid lightgray;
+    margin-bottom: 40px;
+    font-family: 'Nunito', sans-serif;
+}

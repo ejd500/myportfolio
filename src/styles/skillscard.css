@@ -1,0 +1,113 @@
+@media only screen and (min-width: 678px) {
+
+    .skills-card{
+        margin-top: 60px;
+        box-shadow: 0 0px 8px lightgrey;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+    }
+    table{
+        border-collapse: collapse;
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    th{
+        padding-bottom: 16px;
+        border-bottom: 1px solid #828282;
+        font-size: 24px;
+    }
+    tbody{
+        line-height: 150%;
+        font-size: 20px;
+    }
+    table{
+        font-family: 'Nunito', sans-serif;
+        /* font-size: 24px; */
+        color: #828282;
+        margin: 40px;
+    }
+    td{
+        text-align: center;
+        padding: 10px 20px;
+    }
+}
+
+/* Tablet Media Query */
+@media only screen and (min-width: 500px) and (max-width: 677px) {
+    .skills-card{
+        margin-top: 60px;
+        box-shadow: 0 0px 8px lightgrey;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+    }
+    table{
+        border-collapse: collapse;
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    th{
+        padding-bottom: 16px;
+        border-bottom: 1px solid #828282;
+        font-size: 20px;
+    }
+    tbody{
+        line-height: 150%;
+        font-size: 16px;
+    }
+    table{
+        font-family: 'Nunito', sans-serif;
+        /* font-size: 24px; */
+        color: #828282;
+        margin: 40px;
+    }
+    td{
+        text-align: center;
+        padding: 10px 10px;
+    }
+}
+
+/* Mobile media query */
+@media only screen and (max-width: 499px) {
+    .skills-card{
+        margin-top: 60px;
+        box-shadow: 0 0px 8px lightgrey;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+    }
+    table{
+        border-collapse: collapse;
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    th{
+        padding-bottom: 16px;
+        border-bottom: 1px solid #828282;
+        font-size: 16px;
+    }
+    tbody{
+        line-height: 150%;
+        font-size: 12px;
+    }
+    table{
+        font-family: 'Nunito', sans-serif;
+        /* font-size: 24px; */
+        color: #828282;
+        margin: 40px;
+    }
+    td{
+        text-align: center;
+        padding: 8px 8px;
+    }
+}

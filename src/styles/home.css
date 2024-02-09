@@ -1,0 +1,311 @@
+/* Desktop Media Query */
+@media only screen and (min-width: 1087px) {
+    /* Styles for devices with a min-width of 1087 pixels */
+    .homepage{
+        display: flex;
+        justify-content: space-between;
+        height: 100vh;
+    }
+
+    #intro{
+        display: flex;
+        flex-direction: column;
+        padding: 64px 72px;
+        background-color: white;
+        width: 50%;
+    }
+
+    #intro h1{
+        font-family: 'Playfair Display', serif;
+        color: #25282B;
+        font-size: 56px;
+        line-height: 120%;
+        z-index: 1;
+    }
+    #intro p{
+        font-family: 'Nunito', sans-serif;
+        color:#828282;
+        font-size: 24px;
+        line-height: 150%;
+        margin-bottom: 40px;
+        z-index: 1;
+    }
+
+    #profilepicbox{
+        width: 50%;
+        height: 100vh;
+        position: absolute;
+        right: 0px;
+    }
+    #profilepic{
+        width: 700px;
+    }
+
+
+    .btn1{
+        border-radius: 8px;
+        height: fit-content;
+        border: none;
+        padding: 8px 24px;
+        font-size: 18px;
+        font-weight: 500;
+        font-family: 'Roboto', sans-serif;
+        cursor: pointer;
+    }
+    .btn2{
+        border-radius: 8px;
+        height: fit-content;
+        border: 1px solid #25282B;
+        padding: 8px 24px;
+        font-size: 18px;
+        font-weight: 500;
+        font-family: 'Roboto', sans-serif;
+        cursor: pointer;
+    }
+    #buttons{
+        align-items: flex-start;
+        display: inline-flex;
+        gap: 12px;
+        padding: 8px 0px;
+        position: relative;
+    }
+
+}
+
+/* Tablet Media Query */
+@media only screen and (min-width: 731px) and (max-width: 1086px) {
+    /* Styles for devices with a min-width of 731 and a max-width of 1086 pixels */
+    .homepage{
+        display: flex;
+        justify-content: space-between;
+        height: 100vh;
+    }
+
+    #intro{
+        display: flex;
+        flex-direction: column;
+        padding: 120px 72px;
+        background-color: white;
+        width: 60%;
+        height: fit-content;
+
+    }
+
+    #intro h1{
+        font-family: 'Playfair Display', serif;
+        color: #25282B;
+        font-size: 40px;
+        line-height: 120%;
+        z-index: 1;
+    }
+    #intro p{
+        font-family: 'Nunito', sans-serif;
+        color:#828282;
+        font-size: 24px;
+        line-height: 150%;
+        margin-bottom: 40px;
+        z-index: 1;
+        padding-right:50px;
+    
+    }
+
+    #profilepicbox{
+        width: 50%;
+        height: 100vh;
+        position: absolute;
+        right: 0px;
+    }
+    #profilepic{
+        width: 700px;
+    }
+
+    .btn1{
+        border-radius: 8px;
+        height: fit-content;
+        border: none;
+        padding: 8px 24px;
+        font-size: 18px;
+        font-weight: 500;
+        font-family: 'Roboto', sans-serif;
+        cursor: pointer;
+    }
+    .btn2{
+        border-radius: 8px;
+        height: fit-content;
+        border: 1px solid #25282B;
+        padding: 8px 24px;
+        font-size: 18px;
+        font-weight: 500;
+        font-family: 'Roboto', sans-serif;
+        cursor: pointer;
+    }
+    #buttons{
+        align-items: flex-start;
+        display: inline-flex;
+        gap: 12px;
+        padding: 8px 0px;
+        position: relative;
+        z-index: 1;
+    }
+
+}
+
+
+/* Tablet Media Query */
+@media only screen and (min-width: 431px) and (max-width: 730px) {
+    /* Styles for devices with a min-width of 431 and a max-width of 730 pixels */
+    .homepage{
+        display: flex;
+        justify-content: space-between;
+        height: 100vh;
+    }
+
+    #intro{
+        display: flex;
+        flex-direction: column;
+        padding: 48px 48px;
+        width: 100%;
+        height: fit-content;
+        margin-top: 0px;
+
+    }
+
+    #intro h1{
+        font-family: 'Playfair Display', serif;
+        color: #25282B;
+        font-size: 24px;
+        line-height: 120%;
+        z-index: 1;
+    }
+    #intro p{
+        font-family: 'Nunito', sans-serif;
+        color:#828282;
+        font-size: 16px;
+        line-height: 150%;
+        margin-bottom: 40px;
+        z-index: 1;
+        padding-right:0px;
+        width: 50%;
+    
+    }
+
+    #profilepicbox{
+        width: 50%;
+        height: 100vh;
+        position: absolute;
+        right: 0px;
+    }
+    #profilepic{
+        width: 100%;
+    }
+
+    .btn1{
+        border-radius: 8px;
+        height: fit-content;
+        border: none;
+        padding: 8px 24px;
+        font-size: 12px;
+        font-weight: 500;
+        font-family: 'Roboto', sans-serif;
+        cursor: pointer;
+    }
+    .btn2{
+        border-radius: 8px;
+        height: fit-content;
+        border: 1px solid #25282B;
+        padding: 8px 24px;
+        font-size: 12px;
+        font-weight: 500;
+        font-family: 'Roboto', sans-serif;
+        cursor: pointer;
+    }
+    #buttons{
+        align-items: flex-start;
+        display: inline-flex;
+        gap: 12px;
+        padding: 8px 0px;
+        position: relative;
+        z-index: 1;
+    }
+
+}
+
+/* Mobile media query */
+@media only screen and (max-width: 430px) {
+    /* Styles for devices with a max-width of 430 pixels */
+    .homepage{
+        display: flex;
+        justify-content: space-between;
+        height: 100vh;
+        background-color: white;
+    }
+
+    #intro{
+        display: flex;
+        flex-direction: column;
+        padding: 40px 40px;
+        background-color: white;
+        width: 100%;
+        height: fit-content;
+        margin-top: 360px;
+        text-align: center;
+
+
+    }
+
+    #intro h1{
+        font-family: 'Playfair Display', serif;
+        color: #25282B;
+        font-size: 32px;
+        line-height: 120%;
+        z-index: 1;
+    }
+    #intro p{
+        font-family: 'Nunito', sans-serif;
+        color:#828282;
+        font-size: 18px;
+        line-height: 150%;
+        margin-bottom: 40px;
+        z-index: 1;
+        padding-right:0px;
+    
+    }
+
+    #profilepic{
+        position: absolute;
+        width: 100%;
+        right: 0;
+    }
+
+    .btn1{
+        border-radius: 8px;
+        height: fit-content;
+        border: none;
+        padding: 8px 24px;
+        font-size: 12px;
+        font-weight: 500;
+        font-family: 'Roboto', sans-serif;
+        cursor: pointer;
+    }
+    .btn2{
+        border-radius: 8px;
+        height: fit-content;
+        border: 1px solid #25282B;
+        padding: 8px 24px;
+        font-size: 12px;
+        font-weight: 500;
+        font-family: 'Roboto', sans-serif;
+        cursor: pointer;
+    }
+    #buttons{
+        display: flex;
+        align-items: flex-start;
+        display: inline-flex;
+        gap: 12px;
+        width: 100%;
+        padding: 8px 0px;
+        justify-content: center;
+        
+    }
+
+}

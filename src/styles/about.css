@@ -1,0 +1,181 @@
+/* Desktop Media Query */
+@media only screen and (min-width: 1087px) {
+    /* Styles for devices with a min-width of 1087 pixels */
+    #aboutme{
+        display: flex;
+        /* justify-content: center; */
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    h1{
+        font-family: 'Playfair Display', serif;
+        /* text-align: center; */
+        font-size: 48px;
+        margin-top: 60px;
+        margin-bottom: 10px;
+        
+    }
+    .emptybox{
+        width: 100px;
+        height: 4px;
+        border-radius: 10px;
+        background-color: #25282B;
+    }
+    #aboutme p{
+        font-family: 'Nunito', sans-serif;
+        font-size: 20px;
+        color: #828282;
+        max-width: 1195px;
+        margin: 40px 120px;
+    }
+    #resume-button{
+        border-radius: 8px;
+        height: fit-content;
+        border: none;
+        padding: 8px 24px;
+        font-size: 18px;
+        font-weight: 500;
+        font-family: 'Roboto', sans-serif;
+        cursor: pointer;
+        background-color: #2C3261;
+        color: white;
+    }
+
+}
+
+
+/* Tablet Media Query */
+@media only screen and (min-width: 731px) and (max-width: 1086px) {
+    /* Styles for devices with a min-width of 731 and a max-width of 1086 pixels */
+    #aboutme{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    h1{
+        font-family: 'Playfair Display', serif;
+        font-size: 48px;
+        margin-top: 60px;
+        margin-bottom: 10px;
+        
+    }
+    .emptybox{
+        width: 100px;
+        height: 4px;
+        border-radius: 10px;
+        background-color: #25282B;
+    }
+    #aboutme p{
+        font-family: 'Nunito', sans-serif;
+        font-size: 20px;
+        color: #828282;
+        max-width: 1195px;
+        margin: 40px 120px;
+    }
+    #resume-button{
+        border-radius: 8px;
+        height: fit-content;
+        border: none;
+        padding: 8px 24px;
+        font-size: 18px;
+        font-weight: 500;
+        font-family: 'Roboto', sans-serif;
+        cursor: pointer;
+        background-color: #2C3261;
+        color: white;
+    }
+
+}
+
+/* Tablet Media Query */
+@media only screen and (min-width: 431px) and (max-width: 730px) {
+    /* Styles for devices with a min-width of 431 and a max-width of 730 pixels */
+    #aboutme{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    h1{
+        font-family: 'Playfair Display', serif;
+        font-size: 48px;
+        margin-top: 60px;
+        margin-bottom: 10px;
+        
+    }
+    .emptybox{
+        width: 100px;
+        height: 4px;
+        border-radius: 10px;
+        background-color: #25282B;
+    }
+    #aboutme p{
+        font-family: 'Nunito', sans-serif;
+        font-size: 20px;
+        color: #828282;
+        max-width: 1195px;
+        margin: 40px 40px;
+    }
+    #resume-button{
+        border-radius: 8px;
+        height: fit-content;
+        border: none;
+        padding: 8px 24px;
+        font-size: 18px;
+        font-weight: 500;
+        font-family: 'Roboto', sans-serif;
+        cursor: pointer;
+        background-color: #2C3261;
+        color: white;
+    }
+
+}
+
+/* Mobile media query */
+@media only screen and (max-width: 430px) {
+    /* Styles for devices with a max-width of 430 pixels */
+    #aboutme{
+        display: flex;
+        /* justify-content: center; */
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    h1{
+        font-family: 'Playfair Display', serif;
+        /* text-align: center; */
+        font-size: 36px;
+        margin-top: 60px;
+        margin-bottom: 10px;
+        
+    }
+    .emptybox{
+        width: 100px;
+        height: 4px;
+        border-radius: 10px;
+        background-color: #25282B;
+    }
+    #aboutme p{
+        font-family: 'Nunito', sans-serif;
+        font-size: 18px;
+        color: #828282;
+        max-width: 1195px;
+        margin: 40px;
+    }
+    #resume-button{
+        border-radius: 8px;
+        height: fit-content;
+        border: none;
+        padding: 8px 24px;
+        font-size: 18px;
+        font-weight: 500;
+        font-family: 'Roboto', sans-serif;
+        cursor: pointer;
+        background-color: #2C3261;
+        color: white;
+    }
+}
+
+

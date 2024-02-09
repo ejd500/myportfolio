@@ -1,0 +1,199 @@
+@media only screen and (min-width: 678px) {
+    #footer{
+        background-color:#2C3261;
+        height: 264px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 120px;
+        font-family: 'Playfair Display', serif;
+        font-size: 16px;
+        color: white;
+        padding: 0px 60px;
+    }
+    #phone-email{
+        height: fit-content;
+        /* background-color: aqua; */
+    }
+    #phone-email p{
+        font-family: 'Nunito', sans-serif;
+    }
+    #phone-email a:link{
+        color: white;
+        text-decoration: none;
+        transform: translateY(-4px);
+
+    }
+    #phone-email a:visited{
+        color: white;
+        text-decoration: none;
+    }
+    a:hover{
+        transform: translateY(-4px);
+    }
+    #social-media{
+        display: flex;
+        flex-direction: column;
+        /* background-color: aqua; */
+        height: fit-content;
+    }
+    .icons{
+        color: white;
+        display: flex;
+        gap: 16px;
+        width: 100%;
+
+    }
+    .icons a:link{
+        color: white;
+    }
+    .icons a:visited{
+        color: white;
+    }
+    .icons a:hover{
+        color: white;
+    }
+
+    #copyright{
+        margin-top: 24px;
+        color: white;
+        display: flex;
+        justify-content: right;
+        /* background-color: aqua; */
+    }
+}
+
+/* Tablet Media Query */
+@media only screen and (min-width: 488px) and (max-width: 677px) {
+    #footer{
+        background-color:#2C3261;
+        height: 264px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 120px;
+        font-family: 'Playfair Display', serif;
+        font-size: 16px;
+        color: white;
+        padding: 0px 60px;
+    }
+    #phone-email{
+        height: fit-content;
+        /* background-color: aqua; */
+    }
+    #phone-email p{
+        font-family: 'Nunito', sans-serif;
+    }
+    #phone-email a:link{
+        color: white;
+        text-decoration: none;
+        transform: translateY(-4px);
+
+    }
+    #phone-email a:visited{
+        color: white;
+        text-decoration: none;
+    }
+    a:hover{
+        transform: translateY(-4px);
+    }
+    #social-media{
+        display: flex;
+        flex-direction: column;
+        /* background-color: aqua; */
+        height: fit-content;
+    }
+    .icons{
+        color: white;
+        display: flex;
+        gap: 16px;
+        width: 100%;
+
+    }
+    .icons a:link{
+        color: white;
+    }
+    .icons a:visited{
+        color: white;
+    }
+    .icons a:hover{
+        color: white;
+    }
+
+    #copyright{
+        margin-top: 24px;
+        color: white;
+        display: flex;
+        justify-content: right;
+        /* background-color: aqua; */
+    }
+}
+
+/* Tablet Media Query */
+@media only screen and (max-width: 487px) {
+    #footer{
+        background-color:#2C3261;
+        height: 264px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 120px;
+        font-family: 'Playfair Display', serif;
+        font-size: 12px;
+        color: white;
+        padding: 0px 32px;
+    }
+    #phone-email{
+        height: fit-content;
+        /* background-color: aqua; */
+    }
+    #phone-email p{
+        font-family: 'Nunito', sans-serif;
+    }
+    #phone-email a:link{
+        color: white;
+        text-decoration: none;
+        transform: translateY(-4px);
+
+    }
+    #phone-email a:visited{
+        color: white;
+        text-decoration: none;
+    }
+    a:hover{
+        transform: translateY(-4px);
+    }
+    #social-media{
+        display: flex;
+        flex-direction: column;
+        /* background-color: aqua; */
+        height: fit-content;
+    }
+    .icons{
+        color: white;
+        display: flex;
+        gap: 8px;
+        width: 100%;
+
+    }
+    .icons a:link{
+        color: white;
+    }
+    .icons a:visited{
+        color: white;
+    }
+    .icons a:hover{
+        color: white;
+    }
+
+    #copyright{
+        margin-top: 16px;
+        color: white;
+        display: flex;
+        justify-content: right;
+        /* background-color: aqua; */
+    }
+}
