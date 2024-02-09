@@ -8,7 +8,7 @@ import Projects from "./components/Projects";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/myportfolio">
       <Routes>
         <Route index element={<Home/>} />
         <Route path="/about" element={<About/>} />
