@@ -6,7 +6,7 @@ import SkillsCard from "./SkillsCard";
 
 const About = () => {
 
-    const resumePath = process.env.PUBLIC_URL + '/Documents/Resume.pdf';
+    const resumePath = process.env.PUBLIC_URL + '/Documents/resume2024.pdf';
 
     useEffect(() => {
         // Scroll to the top of the page when the component mounts
