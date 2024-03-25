@@ -1,11 +1,11 @@
 /* Desktop Media Query */
 @media only screen and (min-width: 1087px) {
     .project-card{
-        width: 100%;
+        width: 80%;
         display: flex;
         justify-content: center;
         box-shadow: 0 0px 8px lightgrey;
-        margin: 0px 40px;
+        margin: 40px 0px;
         padding: 40px;
     }
     .container{
@@ -60,11 +60,11 @@
 /* Tablet Media Query */
 @media only screen and (min-width: 731px) and (max-width: 1086px) {
     .project-card{
-        width: 100%;
+        width: 80%;
         display: flex;
         justify-content: center;
         box-shadow: 0 0px 8px lightgrey;
-        margin: 0px 40px;
+        margin: 40px 0px;
         padding: 40px;
     }
     .container{
@@ -119,12 +119,12 @@
 /* Tablet Media Query */
 @media only screen and (min-width: 431px) and (max-width: 730px) {
     .project-card{
-        width: 100%;
+        width: 80%;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         box-shadow: 0 0px 8px lightgrey;
-        margin: 0px 40px;
+        margin: 40px 0px;
         padding: 40px;
     }
     .container{
@@ -181,12 +181,12 @@
 /* Mobile media query */
 @media only screen and (max-width: 430px) {
     .project-card{
-        width: 100%;
+        width: 80%;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         box-shadow: 0 0px 8px lightgrey;
-        margin: 0px 40px;
+        margin: 40px 0px;
         padding: 40px;
     }
     .container{

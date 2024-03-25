@@ -3,7 +3,7 @@
     .skills-card{
         margin-top: 60px;
         box-shadow: 0 0px 8px lightgrey;
-        width: 80%;
+        width: fit-content;
         display: flex;
         justify-content: center;
     }
@@ -17,8 +17,9 @@
     }
     th{
         padding-bottom: 16px;
-        border-bottom: 1px solid #828282;
+        /* border-bottom: 1px solid #828282; */
         font-size: 24px;
+        /* text-decoration: underline; */
     }
     tbody{
         line-height: 150%;

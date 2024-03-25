@@ -2,7 +2,7 @@ import Footer from "./Footer";
 import Nav from "./Nav";
 import ProjectCard from "./ProjectCard"
 import "../styles/projects.css"
-import { useState } from "react";
+// import { useState } from "react";
 import MECPhotography from "../Images/MECPhotography.png"
 import TheBookNook from "../Images/TheBookNook.png"
 import HABTaxiServices from "../Images/HABTaxiServices.png"
@@ -40,17 +40,17 @@ const projectsData = [
 
 const Projects = () => {
 
-    const [currentIndex, setCurrentIndex] = useState(0);
+    // const [currentIndex, setCurrentIndex] = useState(0);
 
-    const showNewRight = () => {
-        setCurrentIndex((prevIndex) => (prevIndex + 1) % projectsData.length);
-      };
+    // const showNewRight = () => {
+    //     setCurrentIndex((prevIndex) => (prevIndex + 1) % projectsData.length);
+    //   };
     
-    const showNewLeft = () => {
-        setCurrentIndex((prevIndex) =>
-            prevIndex === 0 ? projectsData.length - 1 : prevIndex - 1
-        );
-    };
+    // const showNewLeft = () => {
+    //     setCurrentIndex((prevIndex) =>
+    //         prevIndex === 0 ? projectsData.length - 1 : prevIndex - 1
+    //     );
+    // };
 
   return (
     <>
@@ -59,9 +59,13 @@ const Projects = () => {
             <h1>Projects</h1>
             <div className="emptybox"></div>
             <div id="all-projects">
-                <button className="arrow-left" onClick={showNewLeft}>&lt;</button>
-                <ProjectCard project={projectsData[currentIndex]} />
-                <button className="arrow-right" onClick={showNewRight}>&gt;</button>
+                <ProjectCard project={projectsData[0]}/>
+                <ProjectCard project={projectsData[1]}/>
+                <ProjectCard project={projectsData[2]}/>
+                <ProjectCard project={projectsData[3]}/>
+                {/* <button className="arrow-left" onClick={showNewLeft}>&lt;</button> */}
+                {/* <ProjectCard project={projectsData[currentIndex]} /> */}
+                {/* <button className="arrow-right" onClick={showNewRight}>&gt;</button> */}
             </div>
         </div>
         <Footer/>

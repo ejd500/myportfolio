@@ -39,8 +39,8 @@ const About = () => {
             <a href={resumePath} download="ellendalton_resume.pdf"><button id="resume-button">Resume</button></a>
             <h1>Skills</h1>
             <div className="emptybox"></div>
-            <SkillsCard title="Coding Skills" skill1="HTML" skill2="JavaScript" skill3="CSS" skill4="GitHub" skill5="React" skill6="Python" skill7="Figma" skill8="" skill9="Framer"/>
-            <SkillsCard title="Transferable Skills" skill1="Conflict Resolution" skill2="Attention to Detail" skill3="Boundary Setting" skill4="Active Listening" skill5="Critical Thinking" skill6="Problem Solving" skill7="Good Communication" skill8="Works well independently and with others" skill9="Organization"/>
+            <SkillsCard title="Coding Skills" skill1="HTML" skill2="JavaScript" skill3="CSS" skill4="GitHub" skill5="React" skill6="Python" skill7="Figma" skill8="Node.js" skill9="Framer" skill10="" skill11="Express" skill12=""/>
+            <SkillsCard title="Transferable Skills" skill1="Conflict Resolution" skill2="Detail Oriented" skill3="Boundary Setting" skill4="Active Listening" skill5="Critical Thinking" skill6="Problem Solving" skill7="Communication" skill8="Relationship Building" skill9="Organization"/>
        
         </div>
         <Footer/>
