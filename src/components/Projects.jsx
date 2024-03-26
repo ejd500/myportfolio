@@ -13,27 +13,31 @@ const projectsData = [
         title: 'MEC Photography', 
         description: 'I created this project during my first term using HTML and CSS. My group consisted of myself, Corina Jewer and Matthew Menchinton.',
         img: MECPhotography,
-        url: "https://github.com/ejd500/Term1-Sprint1-Project5-WebDesign-MECPhotography",
-    },
-
-    { 
-        title: 'The Book Nook', 
-        description: 'I created this project using React, alongside Corina Jewer, during my second term.',
-        img: TheBookNook,
-        url: "https://github.com/ejd500/Term2-Sprint1-TheBookNook",
+        url1: "https://github.com/ejd500/mec-photography.git",
+        url2: "https://ejd500.github.io/mec-photography/"
     },
 
     { 
         title: 'HAB Taxi Services', 
         description: 'I created this project during my first term, using Python. My group consisted of myself, Corina Jewer, Matthew Menchinton, Patrick Layman, Kateryna Danevych, and Bradley Hiscock.',
         img: HABTaxiServices,
-        url: "https://github.com/ejd500/Term1-Sprint2-Project2-Python-HABTaxiServices",
+        url1: "https://github.com/ejd500/Term1-Sprint2-Project2-Python-HABTaxiServices",
+    },
+
+    { 
+        title: 'The Book Nook', 
+        description: 'I created this project using React, alongside Corina Jewer, during my second term.',
+        img: TheBookNook,
+        url1: "https://github.com/ejd500/the-book-nook.git",
+        url2: "https://ejd500.github.io/the-book-nook/"
     },
 
     { 
         title: 'Buyify', 
         description: 'I created this project using React, alongside Corina Jewer, during my second term.',
         img: Buyify,
+        url1: "https://github.com/ejd500/buyify.git",
+        url2: "https://ejd500.github.io/buyify/"
     },
 
   ];
