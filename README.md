@@ -1,4 +1,4 @@
-View this project live at https://ejd500.github.io/myportfolio/
+View this project live at https://www.ellens-portfolio.ca
 
 # Getting Started with Create React App
 
