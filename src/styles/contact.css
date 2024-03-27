@@ -1,50 +1,224 @@
-#contactpage{
-    width: 100%;
-    height: fit-content;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding-bottom: 60px;
+/* Desktop Media Query */
+@media only screen and (min-width: 1087px) {
+    /* Styles for devices with a min-width of 1087 pixels */
+    #contactpage{
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-bottom: 60px;
+    }
+    h1{
+        font-family: 'Playfair Display', serif;
+        /* text-align: center; */
+        font-size: 48px;
+        margin-top: 60px;
+        margin-bottom: 10px;
+    }
+    form{
+        width: 50%;
+        background-color: white;
+        height: 500px;
+        border-radius: 5px;
+        margin-top: 60px;
+        box-shadow: 0 0px 8px lightgrey;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 40px;
+    }
+    #inputs{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .label{
+        margin-top: 24px;
+        margin-bottom: 8px;
+        font-family: 'Nunito', sans-serif;
+    }
+    .text{
+        height: 30px;
+        border: 1px solid lightgray;
+        font-family: 'Nunito', sans-serif;
+    }
+    #message{
+        height: 150px;
+        border: 1px solid lightgray;
+        margin-bottom: 40px;
+        font-family: 'Nunito', sans-serif;
+    }
+
 }
-h1{
-    font-family: 'Playfair Display', serif;
-    /* text-align: center; */
-    font-size: 48px;
-    margin-top: 60px;
-    margin-bottom: 10px;
+
+
+/* Tablet Media Query */
+@media only screen and (min-width: 731px) and (max-width: 1086px) {
+    /* Styles for devices with a min-width of 731 and a max-width of 1086 pixels */
+    #contactpage{
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-bottom: 60px;
+    }
+    h1{
+        font-family: 'Playfair Display', serif;
+        /* text-align: center; */
+        font-size: 48px;
+        margin-top: 60px;
+        margin-bottom: 10px;
+    }
+    form{
+        width: 60%;
+        background-color: white;
+        height: 500px;
+        border-radius: 5px;
+        margin-top: 60px;
+        box-shadow: 0 0px 8px lightgrey;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 40px;
+    }
+    #inputs{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .label{
+        margin-top: 24px;
+        margin-bottom: 8px;
+        font-family: 'Nunito', sans-serif;
+    }
+    .text{
+        height: 30px;
+        border: 1px solid lightgray;
+        font-family: 'Nunito', sans-serif;
+    }
+    #message{
+        height: 150px;
+        border: 1px solid lightgray;
+        margin-bottom: 40px;
+        font-family: 'Nunito', sans-serif;
+    }
 }
-form{
-    width: 70%;
-    background-color: white;
-    height: 500px;
-    border-radius: 5px;
-    margin-top: 60px;
-    box-shadow: 0 0px 8px lightgrey;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 40px;
+
+/* Tablet Media Query */
+@media only screen and (min-width: 431px) and (max-width: 730px) {
+    /* Styles for devices with a min-width of 431 and a max-width of 730 pixels */
+
+    #contactpage{
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-bottom: 60px;
+    }
+    h1{
+        font-family: 'Playfair Display', serif;
+        /* text-align: center; */
+        font-size: 48px;
+        margin-top: 60px;
+        margin-bottom: 10px;
+    }
+    form{
+        width: 70%;
+        background-color: white;
+        height: 500px;
+        border-radius: 5px;
+        margin-top: 60px;
+        box-shadow: 0 0px 8px lightgrey;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 40px;
+    }
+    #inputs{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .label{
+        margin-top: 24px;
+        margin-bottom: 8px;
+        font-family: 'Nunito', sans-serif;
+    }
+    .text{
+        height: 30px;
+        border: 1px solid lightgray;
+        font-family: 'Nunito', sans-serif;
+    }
+    #message{
+        height: 150px;
+        border: 1px solid lightgray;
+        margin-bottom: 40px;
+        font-family: 'Nunito', sans-serif;
+    }
 }
-#inputs{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
-.label{
-    margin-top: 24px;
-    margin-bottom: 8px;
-    font-family: 'Nunito', sans-serif;
-}
-.text{
-    height: 30px;
-    border: 1px solid lightgray;
-    font-family: 'Nunito', sans-serif;
-}
-#message{
-    height: 150px;
-    border: 1px solid lightgray;
-    margin-bottom: 40px;
-    font-family: 'Nunito', sans-serif;
+
+
+/* Mobile media query */
+@media only screen and (max-width: 430px) {
+    /* Styles for devices with a max-width of 430 pixels */
+
+    #contactpage{
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-bottom: 60px;
+    }
+    h1{
+        font-family: 'Playfair Display', serif;
+        /* text-align: center; */
+        font-size: 48px;
+        margin-top: 60px;
+        margin-bottom: 10px;
+    }
+    form{
+        width: 75%;
+        background-color: white;
+        height: 500px;
+        border-radius: 5px;
+        margin-top: 60px;
+        box-shadow: 0 0px 8px lightgrey;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 40px;
+    }
+    #inputs{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .label{
+        margin-top: 24px;
+        margin-bottom: 8px;
+        font-family: 'Nunito', sans-serif;
+    }
+    .text{
+        height: 30px;
+        border: 1px solid lightgray;
+        font-family: 'Nunito', sans-serif;
+    }
+    #message{
+        height: 150px;
+        border: 1px solid lightgray;
+        margin-bottom: 40px;
+        font-family: 'Nunito', sans-serif;
+    }
 }
