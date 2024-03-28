@@ -10,7 +10,7 @@
     #intro{
         display: flex;
         flex-direction: column;
-        padding: 64px 72px;
+        padding: 120px 72px;
         background-color: white;
         width: 50%;
     }
@@ -38,10 +38,8 @@
         right: 0px;
     }
     #profilepic{
-        width: 700px;
+        /* width: 700px; */
     }
-
-
     .btn1{
         border-radius: 8px;
         height: fit-content;
@@ -84,7 +82,7 @@
     #intro{
         display: flex;
         flex-direction: column;
-        padding: 120px 72px;
+        padding: 60px 72px;
         background-color: white;
         width: 60%;
         height: fit-content;
@@ -163,7 +161,7 @@
     #intro{
         display: flex;
         flex-direction: column;
-        padding: 48px 48px;
+        padding: 0px 48px;
         width: 100%;
         height: fit-content;
         margin-top: 0px;
@@ -243,7 +241,7 @@
     #intro{
         display: flex;
         flex-direction: column;
-        padding: 40px 40px;
+        padding: 0px 40px;
         background-color: white;
         width: 100%;
         height: fit-content;
